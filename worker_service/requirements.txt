@@ -1,5 +1,5 @@
+flask
 redis
 pymongo
 dnspython
-flask
 gunicorn
