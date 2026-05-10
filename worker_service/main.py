@@ -9,7 +9,7 @@ def health_check():
     return "Worker is running!", 200
 
 def run_worker():
-    REDIS_URL = "rediss://default:gQAAAAAAAdOdAAIgcDFmOGJmYmYyMWY4Mjg0ZWQ3OGRmNDM5ZmQyN2Q2ZDRiZg@fun-gecko-119709.upstash.io:6379eere"
+    REDIS_URL = ""rediss://default:gQAAAAAAAdOdAAIgcDFmOGJmYmYyMWY4Mjg0ZWQ3OGRmNDM5ZmQyN2Q2ZDRiZg@fun-gecko-119709.upstash.io:6379""
     MONGO_URL = "mongodb+srv://charliesorongon_db_user:<ZizvUiwX06VO0WsO>@cluster0.xwzi76o.mongodb.net/?appName=Cluster0"
     
     r = redis.from_url(REDIS_URL)
